@@ -140,8 +140,8 @@ button {
   padding-block: clamp(52px, 6vw, 88px);
 }
 
-.section--cta-tight {
-  padding-top: clamp(48px, 6vw, 76px);
+.section--album {
+  padding-top: clamp(20px, 2.5vw, 36px);
 }
 
 .section--dark {
