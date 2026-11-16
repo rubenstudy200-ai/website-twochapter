@@ -1485,6 +1485,23 @@ a:focus-visible .media-zoom::before,
   gap: clamp(26px, 3vw, 48px);
 }
 
+.album-card[hidden] {
+  display: none;
+}
+
+.album-empty {
+  margin-top: 8px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+}
+
+.page-hero__filters {
+  margin-top: clamp(22px, 3vw, 34px);
+  margin-bottom: 0;
+}
+
 .album-card {
   display: block;
   width: 100%;

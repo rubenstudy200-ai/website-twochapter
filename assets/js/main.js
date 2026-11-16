@@ -165,6 +165,39 @@
     });
   }
 
+  /* ---------------- Album filters ---------------- */
+  var albumGrid = document.querySelector("[data-album-grid]");
+  var albumFilterButtons = document.querySelectorAll("[data-album-filter]");
+
+  if (albumGrid && albumFilterButtons.length) {
+    var albumLive = document.createElement("p");
+    albumLive.className = "sr-only";
+    albumLive.setAttribute("aria-live", "polite");
+    albumGrid.insertAdjacentElement("afterend", albumLive);
+
+    var albumEmpty = document.querySelector("[data-album-empty]");
+    var albumCards = albumGrid.querySelectorAll("[data-album-cat]");
+
+    albumFilterButtons.forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var filter = btn.dataset.albumFilter;
+        albumFilterButtons.forEach(function (b) {
+          b.setAttribute("aria-pressed", b === btn ? "true" : "false");
+        });
+
+        var shown = 0;
+        albumCards.forEach(function (card) {
+          var match = filter === "all" || card.dataset.albumCat === filter;
+          card.hidden = !match;
+          if (match) shown += 1;
+        });
+
+        if (albumEmpty) albumEmpty.hidden = shown > 0;
+        albumLive.textContent = shown + (shown === 1 ? " album shown." : " albums shown.");
+      });
+    });
+  }
+
   /* ---------------- Lightbox ---------------- */
   var lightbox = document.querySelector("[data-lightbox]");
 
