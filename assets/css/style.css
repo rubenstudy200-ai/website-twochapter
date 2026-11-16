@@ -765,7 +765,7 @@ a:focus-visible .media-zoom::before,
 }
 
 .hero__sub {
-  max-width: 52ch;
+  max-width: 70ch;
   margin: clamp(18px, 3vh, 30px) auto 0;
   font-size: clamp(1rem, 1.35vw, 1.18rem);
   line-height: 1.6;
