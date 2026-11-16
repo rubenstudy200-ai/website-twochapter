@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — TWOCHAPTER</title>
+  <meta name="description" content="Contact TWOCHAPTER about a personal, couple, family, travel, sports, or corporate photography session in Bali. Demo form pending endpoint.">
+  <meta name="theme-color" content="#F7F4EE">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Jost:wght@300;400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css?v=17">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header site-header--solid" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="TWOCHAPTER — home">
+        <span class="brand__logo" aria-hidden="true"></span>
+      </a>
+
+      <nav class="nav nav--primary" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="info.html">Info</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="reviews.html">Reviews</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn--pill" href="contact.html" aria-current="page">Contact</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-drawer" data-menu-open>
+          <span class="sr-only">Open menu</span>
+          <span class="nav-toggle__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-drawer" id="nav-drawer" aria-hidden="true" data-drawer>
+    <div class="container nav-drawer__head">
+      <a class="brand" href="index.html" aria-label="TWOCHAPTER — home">
+        <span class="brand__logo" aria-hidden="true"></span>
+      </a>
+      <button class="nav-drawer__close" type="button" data-menu-close>
+        Close <span aria-hidden="true">✕</span>
+      </button>
+    </div>
+        <nav class="container nav-drawer__nav" aria-label="Mobile">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="info.html">Info</a>
+          <a href="services.html">Services</a>
+          <a href="about.html">About</a>
+          <a href="reviews.html">Reviews</a>
+          <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero__top">
+          <h1 class="display-2 reveal">Contact us</h1>
+        </div>
+        <p class="lede reveal">A few details are enough to start. We will reply with availability, a recommendation, and a clear quote.</p>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="form-title">
+      <div class="container inquiry">
+        <aside class="inquiry__aside reveal">
+          <h2 class="display-3" id="form-title">The essentials.</h2>
+
+          <dl class="inquiry__details">
+            <div>
+              <dt>Email</dt>
+              <dd>[EMAIL]</dd>
+            </div>
+            <div>
+              <dt>WhatsApp</dt>
+              <dd>[NUMBER]</dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>[LOCATION], Bali</dd>
+            </div>
+            <div>
+              <dt>Response time</dt>
+              <dd>Within [X] hours</dd>
+            </div>
+          </dl>
+
+          <div class="inquiry__checklist">
+            <h3>Helpful to include</h3>
+            <ul>
+              <li>Your dates, or the window you are considering</li>
+              <li>Where you are staying, or the area you prefer</li>
+              <li>The kind of session and how many people</li>
+              <li>Anything that matters to you about the day</li>
+            </ul>
+          </div>
+
+          <p class="note" style="margin-top: 28px;">This is a demo form. Submissions are validated in the browser and not sent anywhere until a form endpoint is connected.</p>
+        </aside>
+
+        <form class="form reveal reveal-delay-1" data-form novalidate>
+          <div class="form__row">
+            <div class="field">
+              <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
+              <p class="field__error" id="name-error">Please enter your name.</p>
+            </div>
+            <div class="field">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+              <p class="field__error" id="email-error">Please enter a valid email address.</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="whatsapp">WhatsApp</label>
+              <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" aria-describedby="whatsapp-hint">
+              <p class="note" id="whatsapp-hint" style="margin-top: 5px;">Optional — include your country code.</p>
+            </div>
+            <div class="field">
+              <label for="session">Session type <span class="req" aria-hidden="true">*</span></label>
+              <select id="session" name="session" required aria-describedby="session-error">
+                <option value="">Please choose…</option>
+                <option value="personal">Personal</option>
+                <option value="couple">Couple</option>
+                <option value="family">Family</option>
+                <option value="travel">Travel</option>
+                <option value="corporate">Corporate &amp; events</option>
+                <option value="sports">Sports</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+              <p class="field__error" id="session-error">Please choose a session type.</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date">
+            </div>
+            <div class="field">
+              <label for="people">Number of people</label>
+              <input type="text" id="people" name="people" inputmode="numeric" placeholder="e.g. 2">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="location">Location / where you are staying</label>
+            <input type="text" id="location" name="location" placeholder="e.g. Ubud, Canggu, Uluwatu">
+          </div>
+
+          <div class="field">
+            <label for="message">Tell us about the day <span class="req" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error">Please add a short note so we can reply usefully.</p>
+          </div>
+
+          <div class="field">
+            <label class="check" for="consent">
+              <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error">
+              <span>I agree to be contacted about this inquiry. My details will not be used for anything else.</span>
+            </label>
+            <p class="field__error" id="consent-error">Please confirm we may contact you.</p>
+          </div>
+
+          <div class="honeypot" aria-hidden="true">
+            <label for="website">Website</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="form__foot">
+            <button class="btn btn--solid" type="submit">Send inquiry <span class="arrow" aria-hidden="true">→</span></button>
+            <span class="note">Fields marked <span class="req">*</span> are required.</span>
+          </div>
+
+          <p class="form__status" data-form-status role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--tight" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-head__copy">
+            <h2 class="display-2" id="faq-title">Before you send.</h2>
+          </div>
+        </div>
+        <div class="faq reveal">
+          <details>
+            <summary>How quickly will you reply?</summary>
+            <p>Within <span class="placeholder">[X]</span> hours, Bali time, Monday to Saturday. If your date is within the next two weeks, mention it in the message.</p>
+          </details>
+          <details>
+            <summary>Do you hold dates without a deposit?</summary>
+            <p><span class="placeholder">[HOLD POLICY — how long a date can be held and what secures it.]</span></p>
+          </details>
+          <details>
+            <summary>Can you help with locations and timing?</summary>
+            <p>Yes. Once we know where you are staying, we will suggest a route and a start time based on the light.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <p class="footer-word">TWOCHAPTER</p>
+      </div>
+
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-label">Explore</h2>
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="info.html">Info</a>
+          <a href="services.html">Services</a>
+        </div>
+        <div>
+          <h2 class="footer-label">Studio</h2>
+          <a href="about.html">About</a>
+          <a href="reviews.html">Reviews</a>
+        </div>
+        <div>
+          <h2 class="footer-label">Connect</h2>
+          <a href="contact.html">Contact us</a>
+          <a href="#" aria-disabled="true">Instagram [@handle]</a>
+          <a href="#" aria-disabled="true">WhatsApp [number]</a>
+          <a href="#" aria-disabled="true">[EMAIL]</a>
+        </div>
+        <div>
+          <h2 class="footer-label">Notes</h2>
+          <p>All photographs, films, names, prices, and testimonials on this site are placeholders pending final assets.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> TWOCHAPTER. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=3"></script>
+</body>
+</html>
