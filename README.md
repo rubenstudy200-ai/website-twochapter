@@ -52,7 +52,7 @@ TWOCHAPTER Website/
       ├─ hero-texture.jpg  Home hero background (brand artwork)
       ├─ wordmark.png   Transparent TWOCHAPTER wordmark, used as the site logo (CSS mask, inherits header color)
       ├─ portfolio/     Portfolio photographs (personal-01…06, sports-01…14)
-      ├─ services/      Service photographs (personal.jpg, family.jpg, events.jpg, sports.jpg)
+      ├─ services/      Service photographs (personal.jpg, couple.jpg, family.jpg, travel.jpg, sports.jpg, events.jpg)
       └─ team/          Team portrait (website-photo-01.jpg)
 ```
 
