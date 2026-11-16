@@ -34,7 +34,9 @@ TWOCHAPTER Website/
 ├─ index.html            Home — hero, studio intro, services, work, steps, quotes, journal, CTA
 ├─ portfolio.html        Album index — one cover per session, links to album pages
 ├─ portfolio-personal-01.html  Personal session album — 6 photos + lightbox
-├─ portfolio-sports-01.html    Sports session album — 14 photos + lightbox
+├─ portfolio-sports-01.html    Padel tournament album — 14 photos + lightbox
+├─ portfolio-pocari-2026.html  Pocari 2026 album — 21 photos + lightbox
+├─ portfolio-mbm-2026.html     MBM 2026 album — 12 photos + lightbox
 ├─ info.html             Field notes, featured story, entry archive, location guides
 ├─ services.html         Six service blocks, add-ons, FAQ (<details>)
 ├─ about.html            About — story, "Five chapters" tabs, values, journal teaser, CTA
@@ -51,7 +53,7 @@ TWOCHAPTER Website/
       ├─ favicon.svg    Monogram favicon
       ├─ hero-texture.jpg  Home hero background (brand artwork)
       ├─ wordmark.png   Transparent TWOCHAPTER wordmark, used as the site logo (CSS mask, inherits header color)
-      ├─ portfolio/     Portfolio photographs (personal-01…06, sports-01…14)
+      ├─ portfolio/     Portfolio photographs (personal, sports, pocari, mbm)
       ├─ services/      Service photographs (personal.jpg, couple.jpg, family.jpg, travel.jpg, sports.jpg, events.jpg)
       └─ team/          Team portrait (website-photo-01.jpg)
 ```
