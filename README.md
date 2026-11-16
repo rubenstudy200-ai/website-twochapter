@@ -35,8 +35,8 @@ TWOCHAPTER Website/
 ├─ portfolio.html        Album index — one cover per session, links to album pages
 ├─ portfolio-personal-01.html  Personal session album — 6 photos + lightbox
 ├─ portfolio-sports-01.html    Padel tournament album — 14 photos + lightbox
-├─ portfolio-pocari-2026.html  Pocari 2026 album — 21 photos + lightbox
-├─ portfolio-mbm-2026.html     MBM 2026 album — 12 photos + lightbox
+├─ portfolio-pocari-2026.html  POCARI SWEAT Run Lombok 2026 album — 21 photos + lightbox
+├─ portfolio-mbm-2026.html     Maybank Marathon 2026 album — 12 photos + lightbox
 ├─ info.html             Field notes, featured story, entry archive, location guides
 ├─ services.html         Six service blocks, add-ons, FAQ (<details>)
 ├─ about.html            About — story, "Five chapters" tabs, values, journal teaser, CTA
