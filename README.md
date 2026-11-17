@@ -37,6 +37,7 @@ TWOCHAPTER Website/
 ├─ portfolio-sports-01.html    Padel tournament album — 14 photos + lightbox
 ├─ portfolio-pocari-2026.html  POCARI SWEAT Run Lombok 2026 album — 21 photos + lightbox
 ├─ portfolio-mbm-2026.html     Maybank Marathon 2026 album — 12 photos + lightbox
+├─ portfolio-sip-turtle-release.html  SIP turtle release album — 15 photos + lightbox
 ├─ info.html             Field notes, featured story, entry archive, location guides
 ├─ services.html         Six service blocks, add-ons, FAQ (<details>)
 ├─ about.html            About — story, "Five chapters" tabs, values, journal teaser, CTA
@@ -53,7 +54,7 @@ TWOCHAPTER Website/
       ├─ favicon.svg    Monogram favicon
       ├─ hero-texture.jpg  Home hero background (brand artwork)
       ├─ wordmark.png   Transparent TWOCHAPTER wordmark, used as the site logo (CSS mask, inherits header color)
-      ├─ portfolio/     Portfolio photographs (personal, sports, pocari, mbm)
+      ├─ portfolio/     Portfolio photographs (personal, sports, pocari, mbm, turtle)
       ├─ services/      Service photographs (personal.jpg, couple.jpg, family.jpg, travel.jpg, sports.jpg, events.jpg)
       └─ team/          Team portrait (website-photo-01.jpg)
 ```
