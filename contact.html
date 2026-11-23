@@ -101,6 +101,17 @@
             </div>
           </div>
 
+          <div class="form__row">
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date">
+            </div>
+            <div class="field">
+              <label for="people">Number of people</label>
+              <input type="text" id="people" name="people" inputmode="numeric" placeholder="e.g. 2">
+            </div>
+          </div>
+
           <div class="field">
             <label for="session">Please specify what your message is about <span class="req" aria-hidden="true">(required)</span></label>
             <select id="session" name="session" required aria-describedby="session-error">
@@ -114,17 +125,6 @@
               <option value="unsure">Other / not sure yet</option>
             </select>
             <p class="field__error" id="session-error">Please choose what your message is about.</p>
-          </div>
-
-          <div class="form__row">
-            <div class="field">
-              <label for="date">Preferred date</label>
-              <input type="date" id="date" name="date">
-            </div>
-            <div class="field">
-              <label for="people">Number of people</label>
-              <input type="text" id="people" name="people" inputmode="numeric" placeholder="e.g. 2">
-            </div>
           </div>
 
           <div class="field">
@@ -156,14 +156,6 @@
               </select>
               <p class="field__error" id="referral-error">Please tell us how you found us.</p>
             </div>
-          </div>
-
-          <div class="field">
-            <label class="check" for="robot">
-              <input type="checkbox" id="robot" name="robot" required aria-describedby="robot-error">
-              <span>I’m not a robot</span>
-            </label>
-            <p class="field__error" id="robot-error">Please confirm you’re not a robot.</p>
           </div>
 
           <div class="honeypot" aria-hidden="true">
@@ -245,6 +237,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=5"></script>
+  <script src="assets/js/main.js?v=6"></script>
 </body>
 </html>

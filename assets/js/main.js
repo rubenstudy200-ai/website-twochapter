@@ -437,7 +437,6 @@
       var message = form.querySelector("#message");
       var payment = form.querySelector("#payment");
       var referral = form.querySelector("#referral");
-      var robot = form.querySelector("#robot");
 
       if (!name.value.trim()) {
         setError(name, true);
@@ -486,13 +485,6 @@
         invalid.push(referral);
       } else {
         setError(referral, false);
-      }
-
-      if (!robot.checked) {
-        setError(robot, true);
-        invalid.push(robot);
-      } else {
-        setError(robot, false);
       }
 
       return invalid;
