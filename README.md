@@ -175,7 +175,7 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 
 - All imagery is a tonal placeholder; no real photographs are included.
 - Prices, package terms, bio, testimonials, press names, contact details are placeholders.
-- Inquiry form has no backend; it validates and shows a demo notice.
+- Inquiry form has no backend; it validates client-side and shows a demo success message.
 - Social links are intentionally inert.
 - `favicon.svg` is a simple monogram; replace with the final brand mark if one exists.
 - No CMS: content edits happen in HTML. If the studio needs self-serve editing later, migrate the same markup to Astro + a headless CMS without changing the design system.

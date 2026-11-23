@@ -91,54 +91,73 @@
 
           <div class="form__row">
             <div class="field">
-              <label for="whatsapp">WhatsApp</label>
-              <input type="tel" id="whatsapp" name="whatsapp" autocomplete="tel" aria-describedby="whatsapp-hint">
-              <p class="note" id="whatsapp-hint" style="margin-top: 5px;">Optional — include your country code.</p>
+              <label for="country">Country <span class="req" aria-hidden="true">(required)</span></label>
+              <input type="text" id="country" name="country" autocomplete="country-name" required aria-describedby="country-error">
+              <p class="field__error" id="country-error">Please enter your country.</p>
             </div>
             <div class="field">
-              <label for="session">Session type <span class="req" aria-hidden="true">(required)</span></label>
-              <select id="session" name="session" required aria-describedby="session-error">
-                <option value="">Please choose…</option>
-                <option value="personal">Personal</option>
-                <option value="couple">Couple</option>
-                <option value="family">Family</option>
-                <option value="travel">Travel</option>
-                <option value="corporate">Corporate &amp; events</option>
-                <option value="sports">Sports</option>
-                <option value="unsure">Not sure yet</option>
-              </select>
-              <p class="field__error" id="session-error">Please choose a session type.</p>
+              <label for="phone">Phone / WhatsApp (+ country code)</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel">
             </div>
+          </div>
+
+          <div class="field">
+            <label for="session">Please specify what your message is about <span class="req" aria-hidden="true">(required)</span></label>
+            <select id="session" name="session" required aria-describedby="session-error">
+              <option value="">–</option>
+              <option value="personal">Personal</option>
+              <option value="couple">Couple</option>
+              <option value="family">Family</option>
+              <option value="travel">Travel</option>
+              <option value="sports">Sports</option>
+              <option value="corporate">Corporate &amp; events</option>
+              <option value="unsure">Other / not sure yet</option>
+            </select>
+            <p class="field__error" id="session-error">Please choose what your message is about.</p>
+          </div>
+
+          <div class="field">
+            <label class="sr-only" for="message">Your message</label>
+            <textarea id="message" name="message" placeholder="We’d love to hear a bit about you, your partner, the idea, kind of photos you like to have, etc" required aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error">Please add a short message.</p>
+          </div>
+
+          <div class="field">
+            <label class="sr-only" for="about">What do you love about our photography?</label>
+            <textarea id="about" name="about" placeholder="What do you love about my photography?"></textarea>
           </div>
 
           <div class="form__row">
             <div class="field">
-              <label for="date">Preferred date</label>
-              <input type="date" id="date" name="date">
+              <label for="payment">What’s your preferred payment method <span class="req" aria-hidden="true">(required)</span></label>
+              <select id="payment" name="payment" required aria-describedby="payment-error">
+                <option value="">–</option>
+                <option value="bank">Bank transfer</option>
+                <option value="card">Credit / debit card</option>
+                <option value="paypal">PayPal</option>
+                <option value="other">Other</option>
+              </select>
+              <p class="field__error" id="payment-error">Please choose a payment method.</p>
             </div>
             <div class="field">
-              <label for="people">Number of people</label>
-              <input type="text" id="people" name="people" inputmode="numeric" placeholder="e.g. 2">
+              <label for="referral">How did you find us? <span class="req" aria-hidden="true">(required)</span></label>
+              <select id="referral" name="referral" required aria-describedby="referral-error">
+                <option value="">–</option>
+                <option value="instagram">Instagram</option>
+                <option value="google">Google</option>
+                <option value="friend">Friend / referral</option>
+                <option value="other">Other</option>
+              </select>
+              <p class="field__error" id="referral-error">Please tell us how you found us.</p>
             </div>
           </div>
 
           <div class="field">
-            <label for="location">Location / where you are staying</label>
-            <input type="text" id="location" name="location" placeholder="e.g. Ubud, Canggu, Uluwatu">
-          </div>
-
-          <div class="field">
-            <label for="message">Tell us about the day <span class="req" aria-hidden="true">(required)</span></label>
-            <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
-            <p class="field__error" id="message-error">Please add a short note so we can reply usefully.</p>
-          </div>
-
-          <div class="field">
-            <label class="check" for="consent">
-              <input type="checkbox" id="consent" name="consent" required aria-describedby="consent-error">
-              <span>I agree to be contacted about this inquiry. My details will not be used for anything else.</span>
+            <label class="check" for="robot">
+              <input type="checkbox" id="robot" name="robot" required aria-describedby="robot-error">
+              <span>I’m not a robot</span>
             </label>
-            <p class="field__error" id="consent-error">Please confirm we may contact you.</p>
+            <p class="field__error" id="robot-error">Please confirm you’re not a robot.</p>
           </div>
 
           <div class="honeypot" aria-hidden="true">
@@ -147,7 +166,7 @@
           </div>
 
           <div class="form__foot">
-            <button class="btn btn--solid" type="submit">Send inquiry <span class="arrow" aria-hidden="true">→</span></button>
+            <button class="btn btn--solid" type="submit">Inquire <span class="arrow" aria-hidden="true">→</span></button>
             <span class="note">Fields marked (required) must be completed.</span>
           </div>
 
@@ -220,6 +239,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=4"></script>
+  <script src="assets/js/main.js?v=5"></script>
 </body>
 </html>

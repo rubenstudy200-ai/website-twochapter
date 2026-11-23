@@ -432,9 +432,12 @@
       var invalid = [];
       var name = form.querySelector("#name");
       var email = form.querySelector("#email");
+      var country = form.querySelector("#country");
       var session = form.querySelector("#session");
       var message = form.querySelector("#message");
-      var consent = form.querySelector("#consent");
+      var payment = form.querySelector("#payment");
+      var referral = form.querySelector("#referral");
+      var robot = form.querySelector("#robot");
 
       if (!name.value.trim()) {
         setError(name, true);
@@ -448,6 +451,13 @@
         invalid.push(email);
       } else {
         setError(email, false);
+      }
+
+      if (!country.value.trim()) {
+        setError(country, true);
+        invalid.push(country);
+      } else {
+        setError(country, false);
       }
 
       if (!session.value) {
@@ -464,11 +474,25 @@
         setError(message, false);
       }
 
-      if (!consent.checked) {
-        setError(consent, true);
-        invalid.push(consent);
+      if (!payment.value) {
+        setError(payment, true);
+        invalid.push(payment);
       } else {
-        setError(consent, false);
+        setError(payment, false);
+      }
+
+      if (!referral.value) {
+        setError(referral, true);
+        invalid.push(referral);
+      } else {
+        setError(referral, false);
+      }
+
+      if (!robot.checked) {
+        setError(robot, true);
+        invalid.push(robot);
+      } else {
+        setError(robot, false);
       }
 
       return invalid;
