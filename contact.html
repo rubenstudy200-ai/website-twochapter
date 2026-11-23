@@ -116,15 +116,21 @@
             <p class="field__error" id="session-error">Please choose what your message is about.</p>
           </div>
 
+          <div class="form__row">
+            <div class="field">
+              <label for="date">Preferred date</label>
+              <input type="date" id="date" name="date">
+            </div>
+            <div class="field">
+              <label for="people">Number of people</label>
+              <input type="text" id="people" name="people" inputmode="numeric" placeholder="e.g. 2">
+            </div>
+          </div>
+
           <div class="field">
             <label class="sr-only" for="message">Your message</label>
             <textarea id="message" name="message" placeholder="We’d love to hear a bit about you, your partner, the idea, kind of photos you like to have, etc" required aria-describedby="message-error"></textarea>
             <p class="field__error" id="message-error">Please add a short message.</p>
-          </div>
-
-          <div class="field">
-            <label class="sr-only" for="about">What do you love about our photography?</label>
-            <textarea id="about" name="about" placeholder="What do you love about my photography?"></textarea>
           </div>
 
           <div class="form__row">
