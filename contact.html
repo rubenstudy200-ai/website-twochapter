@@ -78,12 +78,12 @@
         <form class="form form--page reveal reveal-delay-1" data-form novalidate>
           <div class="form__row">
             <div class="field">
-              <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+              <label for="name">Name <span class="req" aria-hidden="true">(required)</span></label>
               <input type="text" id="name" name="name" autocomplete="name" required aria-describedby="name-error">
               <p class="field__error" id="name-error">Please enter your name.</p>
             </div>
             <div class="field">
-              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <label for="email">Email <span class="req" aria-hidden="true">(required)</span></label>
               <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
               <p class="field__error" id="email-error">Please enter a valid email address.</p>
             </div>
@@ -96,7 +96,7 @@
               <p class="note" id="whatsapp-hint" style="margin-top: 5px;">Optional — include your country code.</p>
             </div>
             <div class="field">
-              <label for="session">Session type <span class="req" aria-hidden="true">*</span></label>
+              <label for="session">Session type <span class="req" aria-hidden="true">(required)</span></label>
               <select id="session" name="session" required aria-describedby="session-error">
                 <option value="">Please choose…</option>
                 <option value="personal">Personal</option>
@@ -128,7 +128,7 @@
           </div>
 
           <div class="field">
-            <label for="message">Tell us about the day <span class="req" aria-hidden="true">*</span></label>
+            <label for="message">Tell us about the day <span class="req" aria-hidden="true">(required)</span></label>
             <textarea id="message" name="message" required aria-describedby="message-error"></textarea>
             <p class="field__error" id="message-error">Please add a short note so we can reply usefully.</p>
           </div>
@@ -148,7 +148,7 @@
 
           <div class="form__foot">
             <button class="btn btn--solid" type="submit">Send inquiry <span class="arrow" aria-hidden="true">→</span></button>
-            <span class="note">Fields marked <span class="req">*</span> are required.</span>
+            <span class="note">Fields marked (required) must be completed.</span>
           </div>
 
           <p class="form__status" data-form-status role="status" aria-live="polite"></p>
