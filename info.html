@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Jost:wght@300;400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=26">
+  <link rel="stylesheet" href="assets/css/style.css?v=27">
   <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
@@ -72,24 +72,36 @@
           </div>
         </div>
 
-        <div class="steps">
-          <article class="step reveal">
-            <h3>Enquire</h3>
-            <p>Tell us your preferred dates, location, and group size. We’ll get back to you within minutes.</p>
-          </article>
-          <article class="step reveal reveal-delay-1">
-            <h3>Plan</h3>
-            <p>We’ll discuss the details, choose the right location, and help you prepare for your session.</p>
-          </article>
-          <article class="step reveal reveal-delay-2">
-            <h3>Shoot</h3>
-            <p>Relax and enjoy the moment. We’ll capture everything naturally, with gentle guidance along the way.</p>
-          </article>
-          <article class="step reveal reveal-delay-3">
-            <h3>Relive</h3>
-            <p>Receive your photos in a private Google Drive, with films and albums available as add-ons.</p>
-          </article>
-        </div>
+        <ol class="roadmap">
+          <li class="roadmap__item reveal">
+            <div class="roadmap__card">
+              <h3>Enquire</h3>
+              <p>Tell us your preferred dates, location, and group size. We’ll get back to you shortly.</p>
+            </div>
+            <span class="roadmap__marker" aria-hidden="true">01</span>
+          </li>
+          <li class="roadmap__item reveal reveal-delay-1">
+            <div class="roadmap__card">
+              <h3>Plan</h3>
+              <p>We’ll work out the details, find the right location, and help you prepare for your session.</p>
+            </div>
+            <span class="roadmap__marker" aria-hidden="true">02</span>
+          </li>
+          <li class="roadmap__item reveal reveal-delay-2">
+            <div class="roadmap__card">
+              <h3>Shoot</h3>
+              <p>Just relax and enjoy the moment. We’ll capture things naturally and guide you whenever needed.</p>
+            </div>
+            <span class="roadmap__marker" aria-hidden="true">03</span>
+          </li>
+          <li class="roadmap__item reveal reveal-delay-3">
+            <div class="roadmap__card">
+              <h3>Relive</h3>
+              <p>Your photos are delivered through a private online gallery and albums available as add-ons.</p>
+            </div>
+            <span class="roadmap__marker" aria-hidden="true">04</span>
+          </li>
+        </ol>
       </div>
     </section>
 
