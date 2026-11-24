@@ -17,6 +17,7 @@
   --line-strong: #8c8c8c;
   --charcoal: #111111;
   --ivory: #ffffff;
+  --cream: #faf6ee;
 
   /* Type */
   --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
@@ -146,6 +147,10 @@ button {
 
 .section--album {
   padding-top: clamp(20px, 2.5vw, 36px);
+}
+
+.section--cream {
+  background: var(--cream);
 }
 
 .section--dark {
