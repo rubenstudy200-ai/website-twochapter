@@ -790,31 +790,52 @@ a:focus-visible .media-zoom::before,
   }
 }
 
-.hero__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  margin-top: clamp(26px, 4vh, 40px);
+.hero__scroll {
+  position: absolute;
+  left: 50%;
+  bottom: clamp(20px, 4vh, 40px);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  color: rgba(255, 255, 255, 0.7);
+  transform: translateX(-50%);
+  transition: color 0.3s var(--ease);
 }
 
-.hero__actions .btn {
-  min-height: 46px;
-  padding-inline: 26px;
+.hero__scroll:hover,
+.hero__scroll:focus-visible {
+  color: #ffffff;
 }
 
-.btn--pill--ghost {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.55);
-  color: var(--ivory);
+.hero__scroll-arrow {
+  width: 10px;
+  height: 10px;
+  border-right: 1px solid currentColor;
+  border-bottom: 1px solid currentColor;
+  transform: rotate(45deg);
+  animation: hero-scroll 1.8s var(--ease) infinite;
 }
 
-.btn--pill--ghost:hover,
-.btn--pill--ghost:focus-visible {
-  background: var(--ivory);
-  border-color: var(--ivory);
-  color: var(--charcoal);
+@keyframes hero-scroll {
+  0%,
+  100% {
+    transform: translateY(-2px) rotate(45deg);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: translateY(5px) rotate(45deg);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__scroll-arrow {
+    animation: none;
+    opacity: 0.8;
+  }
 }
 
 /* ---------- 9. Page hero (inner pages) ---------- */

@@ -1,7 +1,7 @@
 # TWOCHAPTER — Design Brief
 
 **Status:** draft untuk persetujuan (belum ada coding)
-**Referensi:** <https://www.gusmank.com/about-me/> (struktur & tone saja, bukan konten)
+**Referensi:** <https://www.gusmank.com/about-me/> (struktur & tone saja, bukan konten) · <https://micromoment.id/> (aesthetic & visual saja, bukan struktur)
 **Tanggal:** 10 November 2026
 
 ---
