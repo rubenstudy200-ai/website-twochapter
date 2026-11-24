@@ -38,8 +38,8 @@ TWOCHAPTER Website/
 ├─ portfolio-pocari-2026.html  POCARI SWEAT Run Lombok 2026 album — 21 photos + lightbox
 ├─ portfolio-mbm-2026.html     Maybank Marathon 2026 album — 12 photos + lightbox
 ├─ portfolio-sip-turtle-release.html  SIP turtle release album — 15 photos + lightbox
-├─ info.html             Location guide — areas we shoot across Bali
-├─ services.html         Six service blocks, add-ons, FAQ (<details>)
+├─ info.html             Info — how it works, guides, FAQ, photography gear
+├─ services.html         Six service blocks + add-ons
 ├─ about.html            About — story, "Five chapters" tabs, values, CTA
 ├─ reviews.html          Client reviews in an editorial grid + CTA
 ├─ contact.html          Contact form (client-side validation only)
@@ -127,14 +127,15 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 ### Services (`services.html`)
 - `From IDR [•••]` ×5, bracketed durations/coverage/deliverables
 - Add-ons: `IDR [•••]`
-- FAQ: `[BOOKING WINDOW]`, `[TRAVEL POLICY]`, `[DELIVERY TIMELINE]`, `[DEPOSIT AND CANCELLATION POLICY]`
 
 ### Info (`info.html`)
-- Locations: `[Guide pending]` ×6
+- How it works: same four steps as home
+- Guides: `[Guide pending]` ×6
+- FAQ: `[BOOKING WINDOW]`, `[TRAVEL POLICY]`, `[DELIVERY TIMELINE]`, `[DEPOSIT AND CANCELLATION POLICY]`
+- Gear: `[CAMERA BODIES AND LENSES]`, `[FILM CAMERAS, FLASH, AND MODIFIERS]`, `[MICROPHONES, RECORDER, TRIPODS, AND BAGS]`
 
 ### Contact (`contact.html`)
-- `[EMAIL]`, `[NUMBER]`, `[LOCATION]`, `[X]` response time
-- `[HOLD POLICY]`
+- Form fields: name, email, country, phone, date, group size, message, payment method, referral
 
 ---
 
