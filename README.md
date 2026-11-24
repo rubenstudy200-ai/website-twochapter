@@ -103,7 +103,7 @@ Full rationale is in `DESIGN-BRIEF.md`.
 Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient blocks stand in for photographs.
 
 ### Global
-- `[EMAIL]`, `[NUMBER]`, `[WHATSAPP]`, `[@handle]` — contact/social, footer and drawer
+- `[EMAIL]` — contact email placeholder (Instagram @twochapter.co and WhatsApp +6287855354591 are live in the footer)
 - `[Studio location]` — footer
 - `©` year is generated automatically
 
