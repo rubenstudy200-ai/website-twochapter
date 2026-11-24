@@ -95,19 +95,19 @@ Latar charcoal, foto menyala di atas gelap, tipografi ivory. Dramatis dan sinema
 
 ## 4. Sistem visual
 
-### 4.1 Warna (kontras sudah diukur terhadap `#F7F4EE`)
+### 4.1 Warna (kontras sudah diukur terhadap `#FFFFFF`)
 
 | Token | Hex | Peran | Kontras |
 |---|---|---|---|
-| `--paper` | `#F7F4EE` | Latar utama (ivory hangat) | — |
+| `--paper` | `#FFFFFF` | Latar utama (putih) | — |
 | `--ink` | `#1B1917` | Teks utama, wordmark | 15.97:1 |
-| `--muted` | `#6B6358` | Body sekunder, caption | 5.39:1 |
+| `--muted` | `#6B6B6B` | Body sekunder, caption | 5.33:1 |
 | `--brass` | `#8C6239` | Aksen teks, nomor, link hover | 4.88:1 |
 | `--brass-soft` | `#A67C52` | Nomor besar / dekoratif | 3.40:1 (large text only) |
-| `--sand` | `#E9E2D5` | Permukaan kartu, placeholder | — |
-| `--line` | `#DCD5C9` | Garis hairline dekoratif | 1.33:1 (non-informasi) |
-| `--line-strong` | `#8A8175` | Border input/komponen | 3.4:1 |
-| `--charcoal` | `#161513` | Section gelap (inquiry/footer) | 16.62:1 |
+| `--sand` | `#DCDCDC` | Placeholder netral | — |
+| `--line` | `#E3E3E3` | Garis hairline dekoratif | 1.25:1 (non-informasi) |
+| `--line-strong` | `#8C8C8C` | Border input/komponen | 3.4:1 |
+| `--charcoal` | `#111111` | Section gelap (inquiry/footer) | 18.9:1 |
 
 Aturan: tidak ada putih murni, tidak ada gradient emas/ungu, aksen kuningan maksimal 5% area.
 

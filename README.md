@@ -65,14 +65,14 @@ TWOCHAPTER Website/
 
 | Token | Value | Use |
 |---|---|---|
-| `--paper` | `#F7F4EE` | Primary background (warm ivory) |
+| `--paper` | `#FFFFFF` | Primary background (white) |
 | `--ink` | `#1B1917` | Primary text |
-| `--muted` | `#6B6358` | Secondary text, captions (5.39:1) |
+| `--muted` | `#6B6B6B` | Secondary text, captions (5.33:1) |
 | `--brass` | `#8C6239` | Accents, links, numerals (4.88:1) |
 | `--brass-soft` | `#A67C52` | Large decorative numerals only |
-| `--line` | `#DCD5C9` | Hairline rules |
-| `--line-strong` | `#8A8175` | Input borders |
-| `--charcoal` | `#161513` | Dark sections, footer |
+| `--line` | `#E3E3E3` | Hairline rules |
+| `--line-strong` | `#8C8C8C` | Input borders |
+| `--charcoal` | `#111111` | Dark sections, footer |
 
 - **Fraunces** — display headings; **Source Serif 4** — body; **Jost** — labels, nav, metadata.
 - 12-column asymmetric grid, zero border radius, no shadows, hairline dividers.
