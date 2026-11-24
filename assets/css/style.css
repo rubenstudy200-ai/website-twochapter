@@ -140,6 +140,10 @@ button {
   padding-block: clamp(52px, 6vw, 88px);
 }
 
+.section--page-start {
+  padding-top: calc(var(--header-h) + clamp(32px, 5vw, 56px));
+}
+
 .section--album {
   padding-top: clamp(20px, 2.5vw, 36px);
 }
