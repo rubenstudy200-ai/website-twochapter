@@ -1276,6 +1276,120 @@ a:focus-visible .media-zoom::before,
   }
 }
 
+/* Horizontal roadmap (Home) */
+.roadmap-h {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(16px, 2.5vw, 40px);
+  margin: 0;
+  list-style: none;
+}
+
+.roadmap-h::before {
+  content: "";
+  position: absolute;
+  top: 26px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--line) 6%,
+    var(--line) 94%,
+    transparent 100%
+  );
+}
+
+.roadmap-h__item {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.roadmap-h__marker {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--cream);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--brass);
+}
+
+.roadmap-h__card {
+  max-width: 30ch;
+  padding-top: clamp(18px, 2vw, 26px);
+}
+
+.roadmap-h__card h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.2rem, 1.5vw, 1.4rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.roadmap-h__card p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+@media (max-width: 760px) {
+  .roadmap-h {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding-left: 26px;
+  }
+
+  .roadmap-h::before {
+    top: 0;
+    bottom: 0;
+    left: 26px;
+    right: auto;
+    width: 1px;
+    height: auto;
+    background: linear-gradient(
+      180deg,
+      transparent 0%,
+      var(--line) 6%,
+      var(--line) 94%,
+      transparent 100%
+    );
+  }
+
+  .roadmap-h__item {
+    grid-template-columns: 52px minmax(0, 1fr);
+    justify-items: start;
+    align-items: start;
+    gap: 20px;
+    padding-block: 18px;
+    text-align: left;
+  }
+
+  .roadmap-h__marker {
+    grid-column: 1;
+    grid-row: 1;
+    width: 44px;
+    height: 44px;
+  }
+
+  .roadmap-h__card {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: none;
+    padding-top: 0;
+  }
+}
+
 /* Duo / split */
 .split {
   display: grid;
