@@ -352,6 +352,19 @@ button {
   border-color: var(--ink);
 }
 
+.btn--pill--outline {
+  background: transparent;
+  color: var(--ink);
+  border-color: var(--ink);
+}
+
+.btn--pill--outline:hover,
+.btn--pill--outline:focus-visible {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--ivory);
+}
+
 .btn .arrow {
   transition: transform 0.3s var(--ease);
 }
