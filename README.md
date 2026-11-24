@@ -31,16 +31,16 @@ No installation, npm, or build step is required. Google Fonts (Fraunces, Source 
 
 ```
 TWOCHAPTER Website/
-├─ index.html            Home — hero, studio intro, services, work, steps, quotes, journal, CTA
+├─ index.html            Home — hero, studio intro, services, work, steps, quotes, CTA
 ├─ portfolio.html        Album index — one cover per session, links to album pages
 ├─ portfolio-personal-01.html  Personal session album — 6 photos + lightbox
 ├─ portfolio-sports-01.html    Padel tournament album — 14 photos + lightbox
 ├─ portfolio-pocari-2026.html  POCARI SWEAT Run Lombok 2026 album — 21 photos + lightbox
 ├─ portfolio-mbm-2026.html     Maybank Marathon 2026 album — 12 photos + lightbox
 ├─ portfolio-sip-turtle-release.html  SIP turtle release album — 15 photos + lightbox
-├─ info.html             Field notes, featured story, entry archive, location guides
+├─ info.html             Location guide — areas we shoot across Bali
 ├─ services.html         Six service blocks, add-ons, FAQ (<details>)
-├─ about.html            About — story, "Five chapters" tabs, values, journal teaser, CTA
+├─ about.html            About — story, "Five chapters" tabs, values, CTA
 ├─ reviews.html          Client reviews in an editorial grid + CTA
 ├─ contact.html          Contact form (client-side validation only)
 ├─ journal.html          Redirect to info.html (legacy URL)
@@ -113,13 +113,11 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 - Steps: `[X]` reply time
 - Duo: `[NAME]` ×2, `[ROLE]` ×2, `[XX]` years
 - Testimonials: `[Client name]`, `[year]` ×3
-- Journal cards: `[Month Year]`, `[Journal title 01–03]`, excerpt placeholders
 
 ### About (`about.html`)
 - Header: `Est. [YEAR]`
 - Story: `[STUDIO DESCRIPTION]`, `[NAME]`, `[ROLE]`, `[HOW YOU MET…]`, `[BACKGROUND…]`
 - Chapters: `[HOW TWOCHAPTER STARTED…]`, `[LOCATION]`, `[FAMILY OR HOME DETAIL…]`, `[BACKGROUND — training…]`, `[PLACES YOU TRAVEL…]`, `[A SMALL HUMAN DETAIL…]`
-- Journal teasers: `[Journal title 01–03]`, `[Month Year]`
 - CTA: `[X]` hours
 
 ### Portfolio (`portfolio.html`)
@@ -132,9 +130,7 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 - FAQ: `[BOOKING WINDOW]`, `[TRAVEL POLICY]`, `[DELIVERY TIMELINE]`, `[DEPOSIT AND CANCELLATION POLICY]`
 
 ### Info (`info.html`)
-- Featured: `[Journal title]`, `[Location]`, `[Standfirst]`, `[Month Year]`, `[X min read]`
-- Archive: `[Journal title 01–06]`, `[Month Year]`, excerpts
-- Field notes: `[Guide pending]` ×6, `[FREQUENCY]`
+- Locations: `[Guide pending]` ×6
 
 ### Contact (`contact.html`)
 - `[EMAIL]`, `[NUMBER]`, `[LOCATION]`, `[X]` response time

@@ -145,7 +145,7 @@ Alasan: Fraunces memberi karakter (soft serif, ada "soul") tanpa jatuh ke Playfa
 ```text
 /                 Home
 /portfolio        Galeri per kategori + lightbox
-/info             Field notes, location guides, cerita di balik layar
+/info             Location guide — area yang paling sering digunakan
 /services         Paket & harga (placeholder harga)
 /about            Tentang TWOCHAPTER
 /reviews          Review klien
@@ -161,7 +161,6 @@ Alasan: Fraunces memberi karakter (soft serif, ada "soul") tanpa jatuh ke Playfa
 5. **The Experience** — 4 langkah: Enquire → Plan → Shoot → Relive (album & film).
 6. **About the duo** — potret pasangan/tim + 3 paragraf; placeholder nama & bio. Konsep "two chapters" dijelaskan di sini.
 7. **Testimonials** — 1 kutipan besar + navigasi manual (tanpa autoplay), label nama & sesi (placeholder).
-8. **Journal** — 3 kartu field note.
 9. **Contact CTA** — section charcoal full-bleed: "Let's write your next chapter." + tombol kontak.
 10. **Footer** — wordmark, nav, sosial, kontak, `© 2026 TWOCHAPTER`.
 
@@ -170,7 +169,6 @@ Alasan: Fraunces memberi karakter (soft serif, ada "soul") tanpa jatuh ke Playfa
 1. Hero portrait/landscape + label `ABOUT`.
 2. Intro personal + signature.
 3. **"Five chapters"** (pengganti "5 things about me") — The Beginning, Home, Craft, Elsewhere, Coffee (placeholder isi; tab interaktif tanpa nomor).
-4. Field note ringkas (3 entri).
 5. CTA + footer.
 
 ### 5.4 Mobile
