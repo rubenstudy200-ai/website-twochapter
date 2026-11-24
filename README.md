@@ -40,7 +40,7 @@ TWOCHAPTER Website/
 ├─ portfolio-sip-turtle-release.html  SIP turtle release album — 15 photos + lightbox
 ├─ info.html             Info — how it works, guides, FAQ, photography gear
 ├─ services.html         Six service blocks + add-ons
-├─ about.html            About — story, "Five chapters" tabs, values, CTA
+├─ about.html            About — story, values, CTA
 ├─ reviews.html          Client reviews in an editorial grid + CTA
 ├─ contact.html          Contact form (client-side validation only)
 ├─ journal.html          Redirect to info.html (legacy URL)
@@ -117,7 +117,6 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 ### About (`about.html`)
 - Header: `Est. [YEAR]`
 - Story: `[STUDIO DESCRIPTION]`, `[NAME]`, `[ROLE]`, `[HOW YOU MET…]`, `[BACKGROUND…]`
-- Chapters: `[HOW TWOCHAPTER STARTED…]`, `[LOCATION]`, `[FAMILY OR HOME DETAIL…]`, `[BACKGROUND — training…]`, `[PLACES YOU TRAVEL…]`, `[A SMALL HUMAN DETAIL…]`
 - CTA: `[X]` hours
 
 ### Portfolio (`portfolio.html`)

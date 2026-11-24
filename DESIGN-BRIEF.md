@@ -168,7 +168,6 @@ Alasan: Fraunces memberi karakter (soft serif, ada "soul") tanpa jatuh ke Playfa
 
 1. Hero portrait/landscape + label `ABOUT`.
 2. Intro personal + signature.
-3. **"Five chapters"** (pengganti "5 things about me") — The Beginning, Home, Craft, Elsewhere, Coffee (placeholder isi; tab interaktif tanpa nomor).
 5. CTA + footer.
 
 ### 5.4 Mobile
