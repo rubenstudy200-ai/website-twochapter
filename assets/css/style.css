@@ -969,38 +969,48 @@ a:focus-visible .media-zoom::before,
 
 .service-preview__card {
   display: block;
+  overflow: hidden;
   text-align: center;
 }
 
-.service-preview__card .media {
-  margin-bottom: 20px;
+.service-preview__media {
+  position: relative;
+}
+
+.service-preview__shade {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.38);
+  transition: opacity 0.45s var(--ease);
 }
 
 .service-preview__card h3 {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(14px, 2vw, 24px);
   font-family: var(--font-display);
-  font-size: clamp(1.05rem, 1.4vw, 1.35rem);
-  font-weight: 400;
-  letter-spacing: -0.01em;
+  font-size: clamp(1.1rem, 1.5vw, 1.55rem);
+  font-weight: 300;
+  letter-spacing: 0.01em;
   line-height: 1.2;
-  transition: color 0.3s var(--ease);
+  color: #ffffff;
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
 }
 
-.service-preview__card p {
-  max-width: 30ch;
-  margin: 10px auto 0;
-  font-size: 0.92rem;
-  line-height: 1.55;
-  color: var(--muted);
-}
-
-.service-preview__card:hover h3,
-.service-preview__card:focus-visible h3 {
-  color: var(--brass);
+.service-preview__card:hover .service-preview__shade,
+.service-preview__card:focus-visible .service-preview__shade {
+  opacity: 0;
 }
 
 .service-preview__card:hover .media img,
 .service-preview__card:focus-visible .media img {
-  transform: scale(1.03);
+  transform: scale(1.05);
 }
 
 .service-preview__cta {
