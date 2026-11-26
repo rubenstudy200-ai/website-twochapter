@@ -124,7 +124,7 @@ Everything in `[BRACKETS]` (rendered in brass) is a placeholder. Tonal gradient 
 - All frames must be replaced with licensed photographs + real alt text.
 
 ### Services (`services.html`)
-- `From IDR [•••]` ×5, bracketed durations/coverage/deliverables
+- Package durations, inclusions, group sizes, and starting prices are set in `services.html`
 - Add-ons: `IDR [•••]`
 
 ### Info (`info.html`)

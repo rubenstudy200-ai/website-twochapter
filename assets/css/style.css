@@ -1856,6 +1856,20 @@ a:focus-visible .media-zoom::before,
   margin-bottom: clamp(18px, 2.5vw, 28px);
 }
 
+
+.service-notes {
+  max-width: 82ch;
+  margin: 22px auto 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--muted);
+  text-align: center;
+}
+
+.service-notes p + p {
+  margin-top: 10px;
+}
+
 /* ---------- 13. Portfolio ---------- */
 .portfolio-grid {
   display: grid;
