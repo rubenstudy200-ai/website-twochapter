@@ -893,6 +893,44 @@ a:focus-visible .media-zoom::before,
   margin-top: clamp(36px, 6vw, 64px);
 }
 
+.about-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(16px, 2.4vw, 24px);
+  margin-top: clamp(30px, 4.5vw, 52px);
+}
+
+.about-brand__logo {
+  display: block;
+  width: clamp(190px, 22vw, 280px);
+  aspect-ratio: 1317 / 143;
+  background-color: var(--ink);
+  -webkit-mask: url("../img/wordmark.png?v=2") center / contain no-repeat;
+  mask: url("../img/wordmark.png?v=2") center / contain no-repeat;
+}
+
+.about-brand__social {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: var(--muted);
+  transition: color 0.3s var(--ease);
+}
+
+.about-brand__social:hover,
+.about-brand__social:focus-visible {
+  color: var(--brass);
+}
+
+.about-brand__social svg {
+  width: 18px;
+  height: 18px;
+}
+
 /* ---------- 10. Sections ---------- */
 .section-head {
   display: flex;
