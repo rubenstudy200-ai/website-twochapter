@@ -2023,7 +2023,7 @@ a:focus-visible .media-zoom::before,
 /* ---------- 14. Services ---------- */
 .service {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: clamp(26px, 5vw, 72px);
   align-items: center;
   padding-block: clamp(40px, 6vw, 72px);
@@ -2037,6 +2037,12 @@ a:focus-visible .media-zoom::before,
 
 .service:nth-child(even) .service__media {
   order: 2;
+}
+
+.service__media {
+  width: 100%;
+  max-width: 460px;
+  justify-self: center;
 }
 
 .service__media .media {
