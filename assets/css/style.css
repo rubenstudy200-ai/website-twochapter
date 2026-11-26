@@ -1682,11 +1682,6 @@ a:focus-visible .media-zoom::before,
 }
 
 /* ---------- 12. About page ---------- */
-.about-hero__band {
-  position: relative;
-  margin-top: clamp(36px, 6vw, 64px);
-}
-
 .about-intro {
   display: grid;
   grid-template-columns: 4fr 8fr;
@@ -2725,10 +2720,6 @@ a:focus-visible .media-zoom::before,
 
   .quote-nav {
     margin-top: 8px;
-  }
-
-  .about-hero__band {
-    margin-top: 30px;
   }
 }
 
